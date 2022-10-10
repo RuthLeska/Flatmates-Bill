@@ -46,4 +46,4 @@ app.add_url_rule('/', view_func=HomePage.as_view('home_page'))
 app.add_url_rule('/bill_form', view_func=BillFormPage.as_view('bill_form_page'))
 app.add_url_rule('/results', view_func=ResultsPage.as_view('results_page'))
 
-app.run(debug=True)
+# app.run(debug=True)
