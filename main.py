@@ -53,4 +53,4 @@ class BillForm(Form):
 app.add_url_rule('/', view_func=HomePage.as_view('home_page'))
 app.add_url_rule('/bill_form_page', view_func=BillFormPage.as_view('bill_form_page'))
 
-app.run(debug=True)
+# app.run(debug=True)
